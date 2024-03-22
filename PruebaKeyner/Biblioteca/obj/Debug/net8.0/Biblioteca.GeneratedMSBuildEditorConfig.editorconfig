@@ -46,6 +46,34 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXFJlZ2lzdHJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/riwi/csharp/Biblioteca/PruebaKeyner/Biblioteca/Views/Prestamo/CrearPrestamo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cQ3JlYXJQcmVzdGFtby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/riwi/csharp/Biblioteca/PruebaKeyner/Biblioteca/Views/Prestamo/Devolucion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cRGV2b2x1Y2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/riwi/csharp/Biblioteca/PruebaKeyner/Biblioteca/Views/Prestamo/EditarPrestamo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cRWRpdGFyUHJlc3RhbW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/riwi/csharp/Biblioteca/PruebaKeyner/Biblioteca/Views/Prestamo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/riwi/csharp/Biblioteca/PruebaKeyner/Biblioteca/Views/Prestamo/ListarLibrosDisponibles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cTGlzdGFyTGlicm9zRGlzcG9uaWJsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/riwi/csharp/Biblioteca/PruebaKeyner/Biblioteca/Views/Prestamo/ListarLibrosPrestados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cTGlzdGFyTGlicm9zUHJlc3RhZG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/riwi/csharp/Biblioteca/PruebaKeyner/Biblioteca/Views/Prestamo/Renovacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cUmVub3ZhY2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/riwi/csharp/Biblioteca/PruebaKeyner/Biblioteca/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
