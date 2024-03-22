@@ -1,0 +1,31 @@
+<h1>Libros</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Género</th>
+                <th>Ubicación</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+           
+            <tr>
+                <td>2</td>
+                <td>Cien años de soledad</td>
+                <td>Gabriel García Márquez</td>
+                <td>Realismo mágico</td>
+                <td>Estantería 2, Estante 1</td>
+                <td>
+                    <a asp-area="" asp-controller="Libros" asp-action="Actualizar">Actualizar</a>
+                    <a asp-controller="Libros" asp-action="Detalle">Detalles</a>
+                    <a asp-controller="Libros" asp-action="Eliminar">Eliminar</a>
+                </td>
+
+            
+            </tr>
+            <!-- Puedes agregar más filas aquí según sea necesario -->
+        </tbody>
+    </table>
