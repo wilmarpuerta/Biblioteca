@@ -1,0 +1,34 @@
+
+/* Estilo al formulario de crear */
+
+.container-create{
+    width: 30%;
+    background-color: #D9D9D9;
+    padding: 20px;
+    border-radius: 10px;
+    h2{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom: 20px;
+        color: #1DBEB4;
+    }
+    
+    label{
+        color: #383B58;
+    }
+}
+
+.btn-crear{
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    background-color: #096930;
+    margin-top: 25px;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.btn-crear:hover{
+    color: #ffffff;
+}

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Biblioteca.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca first\\Biblioteca\\test\\Biblioteca\\wwwroot\\css\\create.css",
+      "PackagePath": "staticwebassets\\css\\create.css"
+    },
+    {
       "Id": "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca first\\Biblioteca\\test\\Biblioteca\\wwwroot\\css\\dashboard.css",
       "PackagePath": "staticwebassets\\css\\dashboard.css"
     },
