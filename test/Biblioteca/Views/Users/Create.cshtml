@@ -1,0 +1,31 @@
+@{
+    ViewBag.Title = "Crear usuario";
+    ViewBag.Css = "form.css";
+}
+
+<div class="container-main">
+    <div class="container-form">
+    <h2>Crear usuario</h2>
+        <div class="mb-3">
+            <label for="InputNombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="InputNombre">
+        </div>
+        <div class="mb-3">
+            <label for="InputApellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="InputApellido">
+        </div>
+        <div class="mb-3">
+            <label for="InputDireccion" class="form-label">Direccion</label>
+            <input type="text" class="form-control" id="InputDireccion">
+        </div>
+        <div class="mb-3">
+            <label for="InputTelefono" class="form-label">Telefono</label>
+            <input type="number" class="form-control" id="InputTelefono">
+        </div>
+        <div class="mb-3">
+            <label for="InputCorreo" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="InputCorreo">
+        </div>
+    </div>
+    <a class="btn-crear" asp-controller="Users" asp-action="Index">Crear</a>
+</div>

@@ -29,3 +29,34 @@ C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Bibl
 C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\Biblioteca.pdb
 C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\Biblioteca.genruntimeconfig.cache
 C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\ref\Biblioteca.dll
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\bin\Debug\net8.0\appsettings.json
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\bin\Debug\net8.0\Biblioteca.staticwebassets.runtime.json
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\bin\Debug\net8.0\Biblioteca.exe
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\bin\Debug\net8.0\Biblioteca.deps.json
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\bin\Debug\net8.0\Biblioteca.runtimeconfig.json
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\bin\Debug\net8.0\Biblioteca.dll
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\bin\Debug\net8.0\Biblioteca.pdb
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.AssemblyInfoInputs.cache
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.AssemblyInfo.cs
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.RazorAssemblyInfo.cache
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.RazorAssemblyInfo.cs
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.sourcelink.json
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\staticwebassets\msbuild.Biblioteca.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\staticwebassets\msbuild.build.Biblioteca.props
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Biblioteca.props
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Biblioteca.props
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\scopedcss\bundle\Biblioteca.styles.css
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\scopedcss\projectbundle\Biblioteca.bundle.scp.css
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.dll
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\refint\Biblioteca.dll
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.pdb
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.genruntimeconfig.cache
+C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\obj\Debug\net8.0\ref\Biblioteca.dll
