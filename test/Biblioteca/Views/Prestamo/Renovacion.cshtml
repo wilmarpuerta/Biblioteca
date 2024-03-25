@@ -1,18 +1,26 @@
- <form action="procesar_prestamo.php" method="POST">
-        <label for="nombre">Nombre Usuario:</label><br>
-        <input type="text" id="nombre" name="nombre" required><br><br>
+    <form >
+
         
-        <label for="nombre">ID Libro:</label><br>
-        <input type="text" id="nombre" name="nombre" required><br><br>
+        <div class="mb-3">   
+            <label for="nombre"  class= "form-label">ID usurio:</label><br>
+            <input type="text" id="nombre"class="form-control" name="nombre" required><br><br>
+        </div> 
 
-        <label for="id_libro">ID del libro:</label><br>
-        <input type="text" id="id_libro" name="id_libro" required>
+        <div  class="mb-3">
+            <label for="id_libro"  class= "form-label">ID del libro:</label><br>
+            <input type="text" id="id_libro" class="form-control"name="id_libro" required >
+        </div>
 
-        <label for="fecha_devolucion">Fecha de Prestamo</label><br>
-        <input type="date" id="fecha_devolucion" name="fecha_devolucion" required>
 
-        <label for="fecha_devolucion">Fecha de Devolución</label><br>
-        <input type="date" id="fecha_devolucion" name="fecha_devolucion" required>
-        
-        <input type="submit" value="Prestar Libro">
+        <div class="mb-3">   
+            <label for="fecha_devolucion"  class= "form-label">Fecha de Prestamo</label><br>
+            <input type="date" id="fecha_devolucion" name="fecha_devolucion" required><br><br>
+        </div>
+
+        <div class="mb-3">   
+            <label for="fecha_devolucion"  class= "form-label">Fecha de Devolución</label><br>
+            <input type="date" id="fecha_devolucion" name="fecha_devolucion" required><br><br>
+        </div>
+
+        <input type="submit" value="Editar"   class="btn btn-success">
     </form>

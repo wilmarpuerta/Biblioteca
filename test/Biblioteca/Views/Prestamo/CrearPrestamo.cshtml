@@ -1,12 +1,25 @@
- <form class="row g-3">
-        <label for="nombre" class="visually-hidden">Nombre:</label><br>
-        <input type="text" id="nombre" class="form-control-plaintext" name="nombre" required><br><br>
-        
-        <label for="id_libro" class="visually-hidden">ID del libro:</label><br>
-        <input type="text" id="id_libro" class="form-control-plaintext"name="id_libro" required>
+ <form >
+        <div class="mb-3">   
+            <label for="nombre"  class= "form-label">Nombre de usurio:</label><br>
+            <input type="text" id="nombre"class="form-control" name="nombre" required><br><br>
+        </div> 
 
-        <label for="fecha_devolucion" class="visually-hidden">Fecha de Prestamo</label><br>
-        <input type="date" id="fecha_devolucion" name="fecha_devolucion" required><br><br>
-        
-        <input type="submit" value="Prestar Libro">
+        <div  class="mb-3">
+            <label for="id_libro"  class= "form-label">ID del libro:</label><br>
+            <input type="text" id="id_libro" class="form-control"name="id_libro" required>
+        </div>
+
+
+        <div class="mb-3">   
+            <label for="fecha_devolucion"  class= "form-label">Fecha de Prestamo</label><br>
+            <input type="date" id="fecha_prestamo" name="fecha_prestamo" required><br><br>
+
+        </div>
+
+         <div class="mb-3">   
+            <label for="fecha_devolucion"  class= "form-label">Fecha de Devolución</label><br>
+            <input type="date" id="fecha_devolucion" name="fecha_devolucion" required><br><br>
+        </div>
+
+        <input type="submit" value="Prestar Libro"   class="btn btn-warning">
     </form>
