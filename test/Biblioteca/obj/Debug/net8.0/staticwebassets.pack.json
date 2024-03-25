@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\css\\dashboard.css"
     },
     {
+      "Id": "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca first\\Biblioteca\\test\\Biblioteca\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca first\\Biblioteca\\test\\Biblioteca\\wwwroot\\css\\users.css",
+      "PackagePath": "staticwebassets\\css\\users.css"
+    },
+    {
       "Id": "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca first\\Biblioteca\\test\\Biblioteca\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

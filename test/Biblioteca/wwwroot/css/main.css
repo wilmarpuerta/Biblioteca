@@ -1,0 +1,25 @@
+
+/* Estilos generales */
+
+body{
+    background-color: #A3A3A3;
+}
+
+/* Estilos del navbar general */
+.navbar-header{
+    padding: 15px 20px 0 20px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    a em{
+        font-size: x-large;
+    }
+    a em:nth-child(2){
+        color: rgb(190, 32, 32);
+    }
+}
+
+.navbar-items{
+    display: flex !important;
+    list-style: none;
+}
