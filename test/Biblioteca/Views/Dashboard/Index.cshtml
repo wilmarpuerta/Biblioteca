@@ -1,8 +1,13 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Dashboard";
+    ViewBag.Css = "dashboard.css";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container-main">
+    <h1>Bienvenido bibliotecario</h1>
+    <div class="btn-gestion">
+        <a asp-controller="Libros" asp-action="Index">Gestionar Libros</a>
+        <a asp-controller="Users" asp-action="Index">Gestionar usuarios</a>
+        <a asp-controller="Prestamo" asp-action="Index">Gestionar prestamos</a>
+    </div>
 </div>
