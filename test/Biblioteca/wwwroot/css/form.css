@@ -27,8 +27,10 @@
     margin-top: 25px;
     padding: 10px 50px;
     border-radius: 10px;
+    transition: 500ms;
 }
 
 .btn-crear:hover{
     color: #ffffff;
+    background-color: #0c7e39;
 }
