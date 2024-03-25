@@ -5,6 +5,16 @@ body{
     background-color: #A3A3A3;
 }
 
+/* Estilos al contenedor main */
+
+.container-main{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Estilos del navbar general */
 .navbar-header{
     padding: 15px 20px 0 20px;

@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
+      "Id": "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca first\\Biblioteca\\test\\Biblioteca\\wwwroot\\css\\show.css",
+      "PackagePath": "staticwebassets\\css\\show.css"
+    },
+    {
       "Id": "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca first\\Biblioteca\\test\\Biblioteca\\wwwroot\\css\\users.css",
       "PackagePath": "staticwebassets\\css\\users.css"
     },

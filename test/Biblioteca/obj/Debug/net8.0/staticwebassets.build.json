@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KzHQGw0DT2q2tq92jE6wKdhbI/2ELgdO7gXlOjNfvSI=",
+  "Hash": "pToE1H+i6PXNDgAPgQRZzNNchKM/L1VNi0tGy0AEeF4=",
   "Source": "Biblioteca",
   "BasePath": "_content/Biblioteca",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\main.css"
+    },
+    {
+      "Identity": "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca first\\Biblioteca\\test\\Biblioteca\\wwwroot\\css\\show.css",
+      "SourceId": "Biblioteca",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca first\\Biblioteca\\test\\Biblioteca\\wwwroot\\",
+      "BasePath": "_content/Biblioteca",
+      "RelativePath": "css/show.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\show.css"
     },
     {
       "Identity": "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca first\\Biblioteca\\test\\Biblioteca\\wwwroot\\css\\users.css",
