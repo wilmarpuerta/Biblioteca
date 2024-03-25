@@ -1,31 +1,31 @@
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\bin\Debug\net8.0\appsettings.json
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\bin\Debug\net8.0\Biblioteca.staticwebassets.runtime.json
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\bin\Debug\net8.0\Biblioteca.exe
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\bin\Debug\net8.0\Biblioteca.deps.json
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\bin\Debug\net8.0\Biblioteca.runtimeconfig.json
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\bin\Debug\net8.0\Biblioteca.dll
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\bin\Debug\net8.0\Biblioteca.pdb
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\Biblioteca.AssemblyInfoInputs.cache
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\Biblioteca.AssemblyInfo.cs
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\Biblioteca.csproj.CoreCompileInputs.cache
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\Biblioteca.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\Biblioteca.RazorAssemblyInfo.cache
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\Biblioteca.RazorAssemblyInfo.cs
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\Biblioteca.sourcelink.json
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\staticwebassets\msbuild.Biblioteca.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\staticwebassets\msbuild.build.Biblioteca.props
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Biblioteca.props
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Biblioteca.props
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\scopedcss\bundle\Biblioteca.styles.css
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\scopedcss\projectbundle\Biblioteca.bundle.scp.css
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\Biblioteca.dll
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\refint\Biblioteca.dll
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\Biblioteca.pdb
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\Biblioteca.genruntimeconfig.cache
-C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\Biblioteca\PruebaKeyner\Biblioteca\obj\Debug\net8.0\ref\Biblioteca.dll
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\bin\Debug\net8.0\appsettings.Development.json
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\bin\Debug\net8.0\appsettings.json
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\bin\Debug\net8.0\Biblioteca.staticwebassets.runtime.json
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\bin\Debug\net8.0\Biblioteca.exe
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\bin\Debug\net8.0\Biblioteca.deps.json
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\bin\Debug\net8.0\Biblioteca.runtimeconfig.json
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\bin\Debug\net8.0\Biblioteca.dll
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\bin\Debug\net8.0\Biblioteca.pdb
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.AssemblyInfoInputs.cache
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.AssemblyInfo.cs
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.csproj.CoreCompileInputs.cache
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.MvcApplicationPartsAssemblyInfo.cache
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.RazorAssemblyInfo.cache
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.RazorAssemblyInfo.cs
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.sourcelink.json
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\staticwebassets.build.json
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\staticwebassets.development.json
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\staticwebassets\msbuild.Biblioteca.Microsoft.AspNetCore.StaticWebAssets.props
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\staticwebassets\msbuild.build.Biblioteca.props
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Biblioteca.props
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Biblioteca.props
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\staticwebassets.pack.json
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\scopedcss\bundle\Biblioteca.styles.css
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\scopedcss\projectbundle\Biblioteca.bundle.scp.css
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.dll
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\refint\Biblioteca.dll
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.pdb
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\Biblioteca.genruntimeconfig.cache
+D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\obj\Debug\net8.0\ref\Biblioteca.dll
