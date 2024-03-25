@@ -1,27 +1,32 @@
-<h1>Libros Dispobles</h1>
-    <table border="1">
-        <thead>
-            <tr>
+@{
+    ViewBag.Title = "Libros disponibles";
+    ViewBag.Css = "table.css";
+}
+<div class="container-main">
+    <div class="container-table">
+        <h2>Libros disponibles</h2>
+        <table border="1">
+            <thead>
+                <tr>
                 <th>ID</th>
                 <th>Título</th>
                 <th>Autor</th>
                 <th>Género</th>
-                <th>Ubicación</th>
-               
-            </tr>
-        </thead>
-        <tbody>
-           
-            <tr>
-                <td>2</td>
+                <th>Ubicacion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>01</td>
                 <td>Cien años de soledad</td>
                 <td>Gabriel García Márquez</td>
                 <td>Realismo mágico</td>
                 <td>Estantería 2, Estante 1</td>
+                </tr>
                 
+            </tbody>
 
-            
-            </tr>
-            <!-- Puedes agregar más filas aquí según sea necesario -->
-        </tbody>
-    </table>
+        </table>
+    </div>
+    <a class="btn-return" asp-controller="Prestamo" asp-action="Index">Volver</a>
+</div>

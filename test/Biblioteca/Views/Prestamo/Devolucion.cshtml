@@ -1,19 +1,23 @@
- <form >
-        <div class="mb-3">   
-            <label for="nombre"  class= "form-label">Nombre de usurio:</label><br>
-            <input type="text" id="nombre"class="form-control" name="nombre" required><br><br>
-        </div> 
+@{
+    ViewBag.Title = "Devolucion de prestamo";
+    ViewBag.Css = "form.css";
+}
 
-        <div  class="mb-3">
-            <label for="id_libro"  class= "form-label">ID del libro:</label><br>
-            <input type="text" id="id_libro" class="form-control"name="id_libro" required>
+<div class="container-main">
+    <div class="container-form">
+        <h2>Devolucion de prestamo</h2>
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre de usurio:</label>
+            <input type="text" id="nombre" class="form-control" name="nombre" required>
         </div>
-
-
-        <div class="mb-3">   
-            <label for="fecha_devolucion"  class= "form-label">Fecha de Devolución</label><br>
-            <input type="date" id="fecha_devolucion" name="fecha_devolucion" required><br><br>
+        <div class="mb-3">
+            <label for="id_libro" class="form-label">ID del libro:</label>
+            <input type="text" id="id_libro" class="form-control" name="id_libro" required>
         </div>
-
-        <input type="submit" value="Devolver"   class="btn btn-success">
-    </form>
+        <div class="mb-3">
+            <label for="fecha_devolucion" class="form-label">Fecha de Devolución</label>
+            <input type="date" id="fecha_devolucion" name="fecha_devolucion" required>
+        </div>
+    </div>
+    <a class="btn-crear" asp-controller="Prestamo" asp-action="Index">Devolucion</a>
+</div>

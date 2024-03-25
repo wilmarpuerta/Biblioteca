@@ -57,3 +57,21 @@
         }
     }
 }
+
+/* Boton de volver */ 
+
+.btn-return {
+    margin-top: 25px;
+    color: #000000;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    border-bottom: 2px solid black;
+    padding: 0 10px;
+    transition: 400ms;
+}
+
+.btn-return:hover {
+    color: #000000;
+    transform: scale(1.2);
+}
