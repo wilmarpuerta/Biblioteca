@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\riwi\\csharp\\Biblioteca\\Biblioteca\\test\\Biblioteca\\Biblioteca.csproj",
+      "projectUniqueName": "D:\\riwi\\csharp\\Biblioteca\\test\\Biblioteca\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "D:\\riwi\\csharp\\Biblioteca\\Biblioteca\\test\\Biblioteca\\Biblioteca.csproj",
+      "projectPath": "D:\\riwi\\csharp\\Biblioteca\\test\\Biblioteca\\Biblioteca.csproj",
       "packagesPath": "C:\\Users\\Juan Keyner\\.nuget\\packages\\",
-      "outputPath": "D:\\riwi\\csharp\\Biblioteca\\Biblioteca\\test\\Biblioteca\\obj\\",
+      "outputPath": "D:\\riwi\\csharp\\Biblioteca\\test\\Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Juan Keyner\\AppData\\Roaming\\NuGet\\NuGet.Config"

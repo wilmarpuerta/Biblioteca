@@ -9,111 +9,111 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Biblioteca
 build_property.RootNamespace = Biblioteca
-build_property.ProjectDir = D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca\
+build_property.ProjectDir = D:\riwi\csharp\Biblioteca\test\Biblioteca\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\riwi\csharp\Biblioteca\Biblioteca\test\Biblioteca
+build_property.MSBuildProjectDirectory = D:\riwi\csharp\Biblioteca\test\Biblioteca
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Dashboard/Index.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Home/Index.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Home/Privacy.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Libros/Actualizar.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Libros/Actualizar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXEFjdHVhbGl6YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Libros/Detalle.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Libros/Detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXERldGFsbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Libros/Eliminar.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Libros/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXEVsaW1pbmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Libros/Index.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Libros/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Libros/Registrar.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Libros/Registrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXFJlZ2lzdHJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Prestamo/CrearPrestamo.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Prestamo/CrearPrestamo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cQ3JlYXJQcmVzdGFtby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Prestamo/Devolucion.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Prestamo/Devolucion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cRGV2b2x1Y2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Prestamo/EditarPrestamo.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Prestamo/EditarPrestamo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cRWRpdGFyUHJlc3RhbW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Prestamo/Index.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Prestamo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Prestamo/ListarLibrosDisponibles.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Prestamo/ListarLibrosDisponibles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cTGlzdGFyTGlicm9zRGlzcG9uaWJsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Prestamo/ListarLibrosPrestados.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Prestamo/ListarLibrosPrestados.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cTGlzdGFyTGlicm9zUHJlc3RhZG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Prestamo/Renovacion.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Prestamo/Renovacion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cUmVub3ZhY2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Shared/Error.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Users/Create.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Users/Delete.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Users/Edit.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Users/Index.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Users/Show.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Users/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcU2hvdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/_ViewImports.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/_ViewStart.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/riwi/csharp/Biblioteca/Biblioteca/test/Biblioteca/Views/Shared/_Layout.cshtml]
+[D:/riwi/csharp/Biblioteca/test/Biblioteca/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bunr9m1pqn

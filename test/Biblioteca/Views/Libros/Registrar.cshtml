@@ -1,16 +1,24 @@
  <h1>Registrar Nuevo Libro</h1>
-    <form action="procesar_registro.php" method="POST">
-        <label for="titulo">Título:</label><br>
-        <input type="text" id="titulo" name="titulo" required><br><br>
+    <form >
+        <div class="mb-3">
+            <label for="titulo"  class= "form-label">Título:</label><br>
+            <input type="text" id="titulo" name="titulo" class="form-control" required><br><br>
+        </div>
 
-        <label for="autor">Autor:</label><br>
-        <input type="text" id="autor" name="autor" required><br><br>
+        <div class="mb-3">
+            <label for="autor"  class= "form-label">Autor:</label><br>
+            <input type="text" id="autor" name="autor" class="form-control" required><br><br>
+        </div>
 
-        <label for="genero">Género:</label><br>
-        <input type="text" id="genero" name="genero" required><br><br>
+        <div class="mb-3">
+            <label for="genero"  class= "form-label">Género:</label><br>
+            <input type="text" id="genero" name="genero" class="form-control" required><br><br>
+        </div>
 
-        <label for="ubicacion">Ubicación:</label><br>
-        <input type="text" id="ubicacion" name="ubicacion" required><br><br>
+        <div class="mb-3">
+            <label for="ubicacion"  class= "form-label">Ubicación:</label><br>
+            <input type="text" id="ubicacion" name="ubicacion" class="form-control" required><br><br>
+        </div>
 
-        <input type="submit" value="Registrar">
+        <input type="submit" value="Registrar" class="btn btn-success">
     </form>
