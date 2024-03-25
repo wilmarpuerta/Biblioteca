@@ -1,24 +1,27 @@
- <h1>Registrar Nuevo Libro</h1>
-    <form >
-        <div class="mb-3">
-            <label for="titulo"  class= "form-label">Título:</label><br>
-            <input type="text" id="titulo" name="titulo" class="form-control" required><br><br>
-        </div>
+@{
+    ViewBag.Title = "Registro de libro";
+    ViewBag.Css = "form.css";
+}
 
+<div class="container-main">
+    <div class="container-form">
+    <h2>Registro de libro</h2>
+         <div class="mb-3">
+            <label for="titulo"  class= "form-label">Título:</label><br>
+            <input type="text" id="titulo" name="titulo" class="form-control">
+        </div>
         <div class="mb-3">
             <label for="autor"  class= "form-label">Autor:</label><br>
-            <input type="text" id="autor" name="autor" class="form-control" required><br><br>
+            <input type="text" id="autor" name="autor" class="form-control">
         </div>
-
         <div class="mb-3">
             <label for="genero"  class= "form-label">Género:</label><br>
-            <input type="text" id="genero" name="genero" class="form-control" required><br><br>
+            <input type="text" id="genero" name="genero" class="form-control">
         </div>
-
         <div class="mb-3">
             <label for="ubicacion"  class= "form-label">Ubicación:</label><br>
-            <input type="text" id="ubicacion" name="ubicacion" class="form-control" required><br><br>
+            <input type="text" id="ubicacion" name="ubicacion" class="form-control">
         </div>
-
-        <input type="submit" value="Registrar" class="btn btn-success">
-    </form>
+    </div>
+    <a class="btn-crear" asp-controller="Libros" asp-action="Index">Registar</a>
+</div>

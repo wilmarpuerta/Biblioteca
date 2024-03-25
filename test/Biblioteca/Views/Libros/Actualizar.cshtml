@@ -1,34 +1,27 @@
-<h1>Actualizar Libro</h1>
-    <form >
-        <div class="mb-3">
-            <label for="id" class= "form-label">ID del Libro:</label><br>
-            <input type="text" id="id" name="id" class="form-control" required><br><br>
-        </div>
+@{
+    ViewBag.Title = "Actualizacion de libro";
+    ViewBag.Css = "form.css";
+}
 
-        <div class="mb-3">
+<div class="container-main">
+    <div class="container-form">
+    <h2>Actualizar libro</h2>
+         <div class="mb-3">
             <label for="titulo"  class= "form-label">Título:</label><br>
-            <input type="text" id="titulo" name="titulo" class="form-control"required><br><br>
-
-        </div>    
-
-        <div class="mb-3">
-            <label for="titulo"  class= "form-label">Autor:</label><br>
-            <input type="text" id="autor" name="autor" class="form-control"required><br><br>
-
-        </div>    
-
-        <div   class="mb-3">
-            <label for="genero"  class= "form-label">Género:</label><br>
-            <input type="text" id="genero" name="genero" class="form-control" required><br><br>
-
+            <input type="text" id="titulo" name="titulo" class="form-control" placeholder="Cien años de soledad">
         </div>
-
-            
+        <div class="mb-3">
+            <label for="autor"  class= "form-label">Autor:</label><br>
+            <input type="text" id="autor" name="autor" class="form-control" placeholder="Gabriel García Márquez">
+        </div>
+        <div class="mb-3">
+            <label for="genero"  class= "form-label">Género:</label><br>
+            <input type="text" id="genero" name="genero" class="form-control" placeholder="Realismo mágico">
+        </div>
         <div class="mb-3">
             <label for="ubicacion"  class= "form-label">Ubicación:</label><br>
-            <input type="text" id="ubicacion" name="ubicacion" class="form-control" required><br><br>
+            <input type="text" id="ubicacion" name="ubicacion" class="form-control" placeholder="Estantería 2, Estante 1">
         </div>
-
-
-        <input type="submit" value="Actualizar" class="btn btn-primary">
-    </form>
+    </div>
+    <a class="btn-crear" asp-controller="Libros" asp-action="Index">Actualizar</a>
+</div>

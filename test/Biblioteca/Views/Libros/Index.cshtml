@@ -1,33 +1,39 @@
-<h1>Libros</h1>
-    <table class="table table-striped-columns">
-        <thead>
-            <tr>
+@{
+    ViewBag.Title = "Libros";
+    ViewBag.Css = "table.css";
+}
+<div class="container-main">
+    <div class="container-table">
+        <div class="btn-new-user">
+            <a asp-controller="Libros" asp-action="Registrar">Registar libro</a>
+        </div>
+        <table border="1">
+            <thead>
+                <tr>
                 <th>ID</th>
                 <th>Título</th>
                 <th>Autor</th>
                 <th>Género</th>
                 <th>Ubicación</th>
                 <th>Acciones</th>
-            </tr>
-        </thead>
-        <tbody>
-           
-            <tr>
-                <td>2</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>01</td>
                 <td>Cien años de soledad</td>
                 <td>Gabriel García Márquez</td>
                 <td>Realismo mágico</td>
                 <td>Estantería 2, Estante 1</td>
-                <td>
-                    <a asp-area="" asp-controller="Libros" asp-action="Actualizar">Actualizar</a>
-                    <a asp-controller="Libros" asp-action="Detalle">Detalles</a>
-                    <a asp-controller="Libros" asp-action="Eliminar">Eliminar</a>
-                </td>
+                    <td>
+                        <a asp-controller="Libros" asp-action="Detalle"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></a>
+                        <a asp-controller="Libros" asp-action="Eliminar"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.615 20q-.69 0-1.152-.462Q6 19.075 6 18.385V6H5V5h4v-.77h6V5h4v1h-1v12.385q0 .69-.462 1.152q-.463.463-1.153.463zm2.193-3h1V8h-1zm3.384 0h1V8h-1z"/></svg></a>
+                        <a asp-controller="Libros" asp-action="Actualizar"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L19 8.9M3 17.2V21h3.8l11-11.1l-3.7-3.8zM7 2v3h3v2H7v3H5V7H2V5h3V2z"/></svg></a>
+                    </td>
+                </tr>
+                
+            </tbody>
 
-            
-            </tr>
-         
-        </tbody>
-    </table>
-
-    <a asp-controller="Libros" asp-action="Registrar" ><button class="btn btn-dark">AGREGAR LIBRO</button></a>
+        </table>
+    </div>
+</div>
