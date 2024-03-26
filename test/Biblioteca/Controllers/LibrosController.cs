@@ -12,6 +12,20 @@ namespace Mvc.controller{
             return View();
         }
 
+        public IActionResult Detalle(){ 
+            return View();
+        }
+
+         public IActionResult Eliminar(){ 
+            return View();
+        }
+
+        public IActionResult Registrar(){
+            return View();
+        }
+
+
+
         
 
 

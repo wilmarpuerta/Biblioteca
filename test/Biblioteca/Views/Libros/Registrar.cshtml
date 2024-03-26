@@ -1,16 +1,27 @@
- <h1>Registrar Nuevo Libro</h1>
-    <form action="procesar_registro.php" method="POST">
-        <label for="titulo">Título:</label><br>
-        <input type="text" id="titulo" name="titulo" required><br><br>
+@{
+    ViewBag.Title = "Registro de libro";
+    ViewBag.Css = "form.css";
+}
 
-        <label for="autor">Autor:</label><br>
-        <input type="text" id="autor" name="autor" required><br><br>
-
-        <label for="genero">Género:</label><br>
-        <input type="text" id="genero" name="genero" required><br><br>
-
-        <label for="ubicacion">Ubicación:</label><br>
-        <input type="text" id="ubicacion" name="ubicacion" required><br><br>
-
-        <input type="submit" value="Registrar">
-    </form>
+<div class="container-main">
+    <div class="container-form">
+    <h2>Registro de libro</h2>
+         <div class="mb-3">
+            <label for="titulo"  class= "form-label">Título:</label><br>
+            <input type="text" id="titulo" name="titulo" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="autor"  class= "form-label">Autor:</label><br>
+            <input type="text" id="autor" name="autor" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="genero"  class= "form-label">Género:</label><br>
+            <input type="text" id="genero" name="genero" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="ubicacion"  class= "form-label">Ubicación:</label><br>
+            <input type="text" id="ubicacion" name="ubicacion" class="form-control">
+        </div>
+    </div>
+    <a class="btn-crear" asp-controller="Libros" asp-action="Index">Registar</a>
+</div>

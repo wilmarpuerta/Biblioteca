@@ -16,7 +16,7 @@ namespace Mvc.controller{
             return View();
         }
 
-        public IActionResult Edit(){
+        public IActionResult Update(){
             return View();
         }
 

@@ -1,12 +1,31 @@
- <form >
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre" required><br><br>
-        
-        <label for="id_libro">ID del libro:</label><br>
-        <input type="text" id="id_libro" name="id_libro" required>
+@{
+    ViewBag.Title = "Creacion de prestamo";
+    ViewBag.Css = "form.css";
+}
 
-        <label for="fecha_devolucion">Fecha de Prestamo</label><br>
-        <input type="date" id="fecha_devolucion" name="fecha_devolucion" required><br><br>
-        
-        <input type="submit" value="Prestar Libro">
-    </form>
+<div class="container-main">
+    <div class="container-form">
+        <h2>Creacion de prestamo</h2>
+         <div class="mb-3">
+            <label for="titulo"  class= "form-label">Título Libro:</label><br>
+            <input type="text" id="titulo" name="titulo" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="autor"  class= "form-label">Bibliotecario:</label><br>
+            <input type="text" id="autor" name="autor" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="genero"  class= "form-label">Usuario:</label><br>
+            <input type="text" id="genero" name="genero" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="fecha_devolucion" class="form-label">Fecha de Prestamo</label>
+            <input type="date" id="fecha_prestamo" name="fecha_prestamo" required>
+        </div>
+        <div class="mb-3">
+            <label for="fecha_devolucion" class="form-label">Fecha de Devolución</label>
+            <input type="date" id="fecha_devolucion" name="fecha_devolucion" required>
+        </div>
+    </div>
+    <a class="btn-crear" asp-controller="Prestamo" asp-action="Index">Crear</a>
+</div>

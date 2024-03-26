@@ -1,19 +1,27 @@
-<h1>Actualizar Libro</h1>
-    <form action="procesar_actualizacion.php" method="POST">
-        <label for="id">ID del Libro:</label><br>
-        <input type="text" id="id" name="id" required><br><br>
+@{
+    ViewBag.Title = "Actualizacion de libro";
+    ViewBag.Css = "form.css";
+}
 
-        <label for="titulo">Título:</label><br>
-        <input type="text" id="titulo" name="titulo" required><br><br>
-
-        <label for="autor">Autor:</label><br>
-        <input type="text" id="autor" name="autor" required><br><br>
-
-        <label for="genero">Género:</label><br>
-        <input type="text" id="genero" name="genero" required><br><br>
-
-        <label for="ubicacion">Ubicación:</label><br>
-        <input type="text" id="ubicacion" name="ubicacion" required><br><br>
-
-        <input type="submit" value="Actualizar">
-    </form>
+<div class="container-main">
+    <div class="container-form">
+    <h2>Actualizar libro</h2>
+         <div class="mb-3">
+            <label for="titulo"  class= "form-label">Título:</label><br>
+            <input type="text" id="titulo" name="titulo" class="form-control" placeholder="Cien años de soledad">
+        </div>
+        <div class="mb-3">
+            <label for="autor"  class= "form-label">Autor:</label><br>
+            <input type="text" id="autor" name="autor" class="form-control" placeholder="Gabriel García Márquez">
+        </div>
+        <div class="mb-3">
+            <label for="genero"  class= "form-label">Género:</label><br>
+            <input type="text" id="genero" name="genero" class="form-control" placeholder="Realismo mágico">
+        </div>
+        <div class="mb-3">
+            <label for="ubicacion"  class= "form-label">Ubicación:</label><br>
+            <input type="text" id="ubicacion" name="ubicacion" class="form-control" placeholder="Estantería 2, Estante 1">
+        </div>
+    </div>
+    <a class="btn-crear" asp-controller="Libros" asp-action="Index">Actualizar</a>
+</div>

@@ -1,8 +1,34 @@
-<h1>Detalles del Libro</h1>
-    <div id="detalles_libro">
-        <p><strong>ID:</strong> <span id="id_libro"></span></p>
-        <p><strong>Título:</strong> <span id="titulo_libro"></span></p>
-        <p><strong>Autor:</strong> <span id="autor_libro"></span></p>
-        <p><strong>Género:</strong> <span id="genero_libro"></span></p>
-        <p><strong>Ubicación:</strong> <span id="ubicacion_libro"></span></p>
+@{
+    ViewBag.Title = "Detalle de libro";
+    ViewBag.Css = "show.css";
+}
+
+<div class="container-main">
+    <div class="container-show">
+        <div class="left">
+            <div class="container-info">
+                <h5>ID:</h5>
+                <p>02</p>
+            </div>
+            <div class="container-info">
+                <h5>Título:</h5>
+                <p>El laberinto de los espíritus</p>
+            </div>
+            <div class="container-info">
+                <h5>Autor:</h5>
+                <p>Carlos Ruiz Zafón</p>
+            </div>
+            <div class="container-info">
+                <h5>Género:</h5>
+                <p>Novela</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="container-info">
+                <h5>Ubicacion:</h5>
+                <p>Estantería A, Sección Ficción</p>
+            </div>
+        </div>
     </div>
+    <a class="btn-return" asp-controller="Libros" asp-action="Index">Volver a lista de libros</a>
+</div>
