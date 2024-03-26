@@ -1,25 +1,20 @@
 @{
-    ViewBag.Title = "Prestamos";
+        ViewBag.Title = "Prestamos";
 }
 
-<div class="container-main">
-    <h1>Indice de Préstamos</h1>
 
-    <h2>Acciones:</h2>
-    <div>
-        <a asp-area="" asp-controller="Prestamo" asp-action="CrearPrestamo"><button class="dropdown-item">Crear
-                Préstamo</button></a>
-        <a asp-area="" asp-controller="Prestamo" asp-action="Devolucion"><button class="dropdown-item">Devolución de
-                Libro</button></a>
-        <a asp-area="" asp-controller="Prestamo" asp-action="EditarPrestamo"><button class="dropdown-item">Editar
-                Préstamo</button></a>
-        <a asp-area="" asp-controller="Prestamo" asp-action="ListarLibrosDisponibles"><button
-                class="dropdown-item">Lista de Libros Disponibles</button></a>
-        <a asp-area="" asp-controller="Prestamo" asp-action="ListarLibrosPrestados"><button class="dropdown-item">Lista
-                de Libros Prestados</button></a>
-        <a asp-area="" asp-controller="Prestamo" asp-action="Renovacion"><button class="dropdown-item">Renovación de
-                Préstamo</button></a>
-        <a asp-area="" asp-controller="Historial" asp-action="Index"><button class="dropdown-item">Historial de
-                prestamos</button></a>
-    </div>
+<link rel="stylesheet" href="~/css/prestamo.css" asp-append-version="true" />
+<div class="container-main">
+        <div class="container-prestamo">
+                <h1>Indice de Préstamos</h1>
+                <div class="acciones">
+                        <a asp-area="" asp-controller="Prestamo" asp-action="CrearPrestamo">Crear Préstamo</a>
+                        <a asp-area="" asp-controller="Prestamo" asp-action="Devolucion">Devolución de Libro</a>
+                        <a asp-area="" asp-controller="Prestamo" asp-action="EditarPrestamo">Editar Préstamo</a>
+                        <a asp-area="" asp-controller="Prestamo" asp-action="ListarLibrosDisponibles">Lista de Libros Disponibles</a>
+                        <a asp-area="" asp-controller="Prestamo" asp-action="ListarLibrosPrestados">Lista de Libros Prestados</a>
+                        <a asp-area="" asp-controller="Prestamo" asp-action="Renovacion">Renovación de Préstamo</a>
+                        <a asp-area="" asp-controller="Historial" asp-action="Index">Historial de prestamos</a>
+                </div>
+        </div>
 </div>
