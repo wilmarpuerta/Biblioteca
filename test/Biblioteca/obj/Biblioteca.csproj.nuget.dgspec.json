@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca first\\Biblioteca\\test\\Biblioteca\\Biblioteca.csproj": {}
+    "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca\\test\\Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca first\\Biblioteca\\test\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca\\test\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca first\\Biblioteca\\test\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca\\test\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca first\\Biblioteca\\test\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca\\test\\Biblioteca\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\wilma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca first\\Biblioteca\\test\\Biblioteca\\obj\\",
+        "outputPath": "C:\\Users\\wilma\\Documents\\- Lenguajes de Programacion\\C#\\Proyectos en github\\Biblioteca\\test\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\wilma\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\wilma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {

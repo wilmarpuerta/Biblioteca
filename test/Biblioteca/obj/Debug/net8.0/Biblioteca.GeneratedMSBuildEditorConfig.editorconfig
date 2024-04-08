@@ -9,103 +9,107 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Biblioteca
 build_property.RootNamespace = Biblioteca
-build_property.ProjectDir = C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca\
+build_property.ProjectDir = C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\test\Biblioteca\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca first\Biblioteca\test\Biblioteca
+build_property.MSBuildProjectDirectory = C:\Users\wilma\Documents\- Lenguajes de Programacion\C#\Proyectos en github\Biblioteca\test\Biblioteca
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Dashboard/Index.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Libros/Actualizar.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Historial/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Libros/Actualizar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXEFjdHVhbGl6YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Libros/Detalle.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Libros/Detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXERldGFsbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Libros/Eliminar.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Libros/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXEVsaW1pbmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Libros/Index.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Libros/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Libros/Registrar.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Libros/Registrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXFJlZ2lzdHJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Prestamo/CrearPrestamo.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Prestamo/CrearPrestamo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cQ3JlYXJQcmVzdGFtby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Prestamo/Devolucion.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Prestamo/Devolucion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cRGV2b2x1Y2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Prestamo/EditarPrestamo.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Prestamo/EditarPrestamo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cRWRpdGFyUHJlc3RhbW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Prestamo/Index.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Prestamo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Prestamo/ListarLibrosDisponibles.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Prestamo/ListarLibrosDisponibles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cTGlzdGFyTGlicm9zRGlzcG9uaWJsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Prestamo/ListarLibrosPrestados.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Prestamo/ListarLibrosPrestados.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cTGlzdGFyTGlicm9zUHJlc3RhZG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Prestamo/Renovacion.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Prestamo/Renovacion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9cUmVub3ZhY2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Shared/Error.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Users/Create.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Users/Delete.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Users/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Users/Index.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Users/Show.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Users/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcU2hvdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/_ViewImports.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Users/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/_ViewStart.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca first/Biblioteca/test/Biblioteca/Views/Shared/_Layout.cshtml]
+[C:/Users/wilma/Documents/- Lenguajes de Programacion/C\#/Proyectos en github/Biblioteca/test/Biblioteca/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bunr9m1pqn
