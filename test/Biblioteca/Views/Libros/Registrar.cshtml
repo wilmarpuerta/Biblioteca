@@ -1,3 +1,4 @@
+@model Libro;
 @{
     ViewBag.Title = "Registro de libro";
     ViewBag.Css = "form.css";
@@ -5,23 +6,25 @@
 
 <div class="container-main">
     <div class="container-form">
-    <h2>Registro de libro</h2>
+        <h2>Registro de libro</h2>
+        <form asp-action="Registrar" method="post">
          <div class="mb-3">
             <label for="titulo"  class= "form-label">Título:</label><br>
-            <input type="text" id="titulo" name="titulo" class="form-control">
+            <input type="text" id="titulo" asp-for="Titulo" class="form-control">
         </div>
         <div class="mb-3">
             <label for="autor"  class= "form-label">Autor:</label><br>
-            <input type="text" id="autor" name="autor" class="form-control">
+            <input type="text" id="autor" asp-for="Autor" class="form-control">
         </div>
         <div class="mb-3">
             <label for="genero"  class= "form-label">Género:</label><br>
-            <input type="text" id="genero" name="genero" class="form-control">
+            <input type="text" id="genero" asp-for="Genero" class="form-control">
         </div>
         <div class="mb-3">
             <label for="ubicacion"  class= "form-label">Ubicación:</label><br>
-            <input type="text" id="ubicacion" name="ubicacion" class="form-control">
+            <input type="text" id="ubicacion" asp-for="Ubicacion" class="form-control">
         </div>
+    <input class="btn-crear" type="submit" value="Registar">
+    </form>
     </div>
-    <a class="btn-crear" asp-controller="Libros" asp-action="Index">Registar</a>
 </div>

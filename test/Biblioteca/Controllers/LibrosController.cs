@@ -23,19 +23,34 @@ namespace Mvc.controller{
             return View(await _dbContext.Libros.FirstOrDefaultAsync(l => l.Id == id));
         }
 
-        public IActionResult Actualizar(){ 
-            return View();
+        public async Task<IActionResult> EliminarLibro(int id)
+        {
+            var libro = await _dbContext.Libros.FindAsync(id);
+            _dbContext.Libros.Remove(libro);
+            await _dbContext.SaveChangesAsync();
+            return RedirectToAction("Eliminar");
         }
 
-         public IActionResult Eliminar(){ 
-            return View();
-        }
-
-        public IActionResult Registrar(){
+        public IActionResult Eliminar()
+        {
             return View();
         }
         
+        public IActionResult Registrar(){
+            return View();
+        }
 
+        [HttpPost]
+        public async Task<IActionResult> Registrar(Libro l)
+        {
+            _dbContext.Libros.Add(l);
+            _dbContext.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        
+        public IActionResult Actualizar(){ 
+            return View();
+        }
     }
 
 }
