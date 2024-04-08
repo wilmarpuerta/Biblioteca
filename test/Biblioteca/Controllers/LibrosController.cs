@@ -1,18 +1,29 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Biblioteca.Data;
+using Biblioteca.Models;
 
 namespace Mvc.controller{
     public class LibrosController : Controller{ 
         
-        public IActionResult Index(){ /*muestra libros */
+        public readonly BDbibliotecaContext _dbContext;
 
-            return View();
+        public LibrosController(BDbibliotecaContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            return View( await _dbContext.Libros.ToListAsync());
+        }
+
+        public async Task<IActionResult> Detalle(int id)
+        {
+            return View(await _dbContext.Libros.FirstOrDefaultAsync(l => l.Id == id));
         }
 
         public IActionResult Actualizar(){ 
-            return View();
-        }
-
-        public IActionResult Detalle(){ 
             return View();
         }
 
@@ -23,14 +34,7 @@ namespace Mvc.controller{
         public IActionResult Registrar(){
             return View();
         }
-
-
-
         
-
-
-
-
 
     }
 

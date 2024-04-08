@@ -8,11 +8,11 @@ body{
 /* Estilos al contenedor main */
 
 .container-main{
+    margin-top: 20px;
     height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 /* Estilos del navbar general */
