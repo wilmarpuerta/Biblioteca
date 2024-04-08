@@ -48,8 +48,16 @@ namespace Mvc.controller{
             return RedirectToAction("Index");
         }
         
-        public IActionResult Actualizar(){ 
-            return View();
+        public async Task<IActionResult> Actualizar(int id){ 
+            return View(await _dbContext.Libros.FirstOrDefaultAsync(m => m.Id == id));
+        }
+        
+        [HttpPost]
+        public async Task<IActionResult> Actualizar(Libro l)
+        {
+            _dbContext.Libros.Update(l);
+            _dbContext.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 
