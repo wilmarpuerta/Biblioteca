@@ -1,3 +1,4 @@
+@model Usuario;
 @{
     ViewBag.Title = "Vista usuario";
     ViewBag.Css = "show.css";
@@ -8,33 +9,33 @@
         <div class="left">
             <div class="container-info">
                 <h5>ID:</h5>
-                <p>02</p>
+                <p>@Model.Id</p>
             </div>
             <div class="container-info">
                 <h5>Nombre:</h5>
-                <p>José</p>
+                <p>@Model.Nombre</p>
             </div>
             <div class="container-info">
                 <h5>Apellido:</h5>
-                <p>Pérez</p>
+                <p>@Model.Apellido</p>
             </div>
             <div class="container-info">
                 <h5>Direccion:</h5>
-                <p>Avenida Principal, Ciudad Y</p>
+                <p>@Model.Direccion</p>
             </div>
         </div>
         <div class="right">
             <div class="container-info">
                 <h5>Telefono:</h5>
-                <p>555-5678</p>
+                <p>@Model.Telefono</p>
             </div>
             <div class="container-info">
                 <h5>Correo:</h5>
-                <p>jose@example.com</p>
+                <p>@Model.Correo</p>
             </div>
             <div class="container-info">
                 <h5>Ultimo registro:</h5>
-                <p>2024-03-23</p>
+                <p>@Model.Ultimo_registro</p>
             </div>
         </div>
     </div>

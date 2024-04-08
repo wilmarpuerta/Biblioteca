@@ -21,104 +21,121 @@
                 </tr>
             </thead>
             <tbody>
+            @foreach (var user in Model)
+            {
                 <tr>
-                    <td>01</td>
-                    <td>María</td>
-                    <td>González</td>
-                    <td>Calle 123, Ciudad X</td>
-                    <td>555-1234</td>
-                    <td>maria@example.com</td>
-                    <td>2024-03-22</td>
+                    <td>@user.Id</td>
+                    <td>@user.Nombre</td>
+                    <td>@user.Apellido</td>
+                    <td>@user.Direccion</td>
+                    <td>@user.Telefono</td>
+                    <td>@user.Correo</td>
+                    <td>@user.Ultimo_registro</td>
                     <td>
-                        <a asp-controller="Users" asp-action="Show"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></a>
-                        <a asp-controller="Users" asp-action="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.615 20q-.69 0-1.152-.462Q6 19.075 6 18.385V6H5V5h4v-.77h6V5h4v1h-1v12.385q0 .69-.462 1.152q-.463.463-1.153.463zm2.193-3h1V8h-1zm3.384 0h1V8h-1z"/></svg></a>
-                        <a asp-controller="Users" asp-action="Update"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L19 8.9M3 17.2V21h3.8l11-11.1l-3.7-3.8zM7 2v3h3v2H7v3H5V7H2V5h3V2z"/></svg></a>
+                        <a asp-action="Show" asp-route-id="@user.Id"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></a>
+                        <a asp-action="DeleteUser" asp-route-id="@user.Id"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.615 20q-.69 0-1.152-.462Q6 19.075 6 18.385V6H5V5h4v-.77h6V5h4v1h-1v12.385q0 .69-.462 1.152q-.463.463-1.153.463zm2.193-3h1V8h-1zm3.384 0h1V8h-1z"/></svg></a>
+                        <a asp-action="Update" asp-route-id="@user.Id"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L19 8.9M3 17.2V21h3.8l11-11.1l-3.7-3.8zM7 2v3h3v2H7v3H5V7H2V5h3V2z"/></svg></a>
                     </td>
                 </tr>
-                <tr>
-                    <td>02</td>
-                    <td>José</td>
-                    <td>Pérez</td>
-                    <td>Avenida Principal, Ciudad Y</td>
-                    <td>555-5678</td>
-                    <td>jose@example.com</td>
-                    <td>2024-03-23</td>
-                    <td>
-                        <a asp-controller="Users" asp-action="Show"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></a>
-                        <a asp-controller="Users" asp-action="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.615 20q-.69 0-1.152-.462Q6 19.075 6 18.385V6H5V5h4v-.77h6V5h4v1h-1v12.385q0 .69-.462 1.152q-.463.463-1.153.463zm2.193-3h1V8h-1zm3.384 0h1V8h-1z"/></svg></a>
-                        <a asp-controller="Users" asp-action="Update"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L19 8.9M3 17.2V21h3.8l11-11.1l-3.7-3.8zM7 2v3h3v2H7v3H5V7H2V5h3V2z"/></svg></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>03</td>
-                    <td>Carlos</td>
-                    <td>Rodríguez</td>
-                    <td>Plaza Central, Ciudad Z</td>
-                    <td>555-9012</td>
-                    <td>carlos@example.com</td>
-                    <td>2024-03-23</td>
-                    <td>
-                        <a asp-controller="Users" asp-action="Show"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></a>
-                        <a asp-controller="Users" asp-action="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.615 20q-.69 0-1.152-.462Q6 19.075 6 18.385V6H5V5h4v-.77h6V5h4v1h-1v12.385q0 .69-.462 1.152q-.463.463-1.153.463zm2.193-3h1V8h-1zm3.384 0h1V8h-1z"/></svg></a>
-                        <a asp-controller="Users" asp-action="Update"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L19 8.9M3 17.2V21h3.8l11-11.1l-3.7-3.8zM7 2v3h3v2H7v3H5V7H2V5h3V2z"/></svg></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>04</td>
-                    <td>Ana</td>
-                    <td>Martínez</td>
-                    <td>Barrio Norte, Ciudad W</td>
-                    <td>555-3456</td>
-                    <td>ana@example.com</td>
-                    <td>2024-03-22</td>
-                    <td>
-                        <a asp-controller="Users" asp-action="Show"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></a>
-                        <a asp-controller="Users" asp-action="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.615 20q-.69 0-1.152-.462Q6 19.075 6 18.385V6H5V5h4v-.77h6V5h4v1h-1v12.385q0 .69-.462 1.152q-.463.463-1.153.463zm2.193-3h1V8h-1zm3.384 0h1V8h-1z"/></svg></a>
-                        <a asp-controller="Users" asp-action="Update"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L19 8.9M3 17.2V21h3.8l11-11.1l-3.7-3.8zM7 2v3h3v2H7v3H5V7H2V5h3V2z"/></svg></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>05</td>
-                    <td>Luis</td>
-                    <td>Fernández</td>
-                    <td>Av. Libertador, Ciudad A</td>
-                    <td>555-7890</td>
-                    <td>luis@example.com</td>
-                    <td>2024-03-21</td>
-                    <td>
-                        <a asp-controller="Users" asp-action="Show"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></a>
-                        <a asp-controller="Users" asp-action="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.615 20q-.69 0-1.152-.462Q6 19.075 6 18.385V6H5V5h4v-.77h6V5h4v1h-1v12.385q0 .69-.462 1.152q-.463.463-1.153.463zm2.193-3h1V8h-1zm3.384 0h1V8h-1z"/></svg></a>
-                        <a asp-controller="Users" asp-action="Update"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L19 8.9M3 17.2V21h3.8l11-11.1l-3.7-3.8zM7 2v3h3v2H7v3H5V7H2V5h3V2z"/></svg></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>06</td>
-                    <td>Lucía</td>
-                    <td>Ruiz</td>
-                    <td>Av. Bolívar, Ciudad B</td>
-                    <td>555-2345</td>
-                    <td>lucia@example.com</td>
-                    <td>2024-03-23</td>
-                    <td>
-                        <a asp-controller="Users" asp-action="Show"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></a>
-                        <a asp-controller="Users" asp-action="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.615 20q-.69 0-1.152-.462Q6 19.075 6 18.385V6H5V5h4v-.77h6V5h4v1h-1v12.385q0 .69-.462 1.152q-.463.463-1.153.463zm2.193-3h1V8h-1zm3.384 0h1V8h-1z"/></svg></a>
-                        <a asp-controller="Users" asp-action="Update"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L19 8.9M3 17.2V21h3.8l11-11.1l-3.7-3.8zM7 2v3h3v2H7v3H5V7H2V5h3V2z"/></svg></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>07</td>
-                    <td>Pablo</td>
-                    <td>Díaz</td>
-                    <td>Col. San Antonio, Ciudad C</td>
-                    <td>555-6789</td>
-                    <td>pablo@example.com</td>
-                    <td>2024-03-22</td>
-                    <td>
-                        <a asp-controller="Users" asp-action="Show"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></a>
-                        <a asp-controller="Users" asp-action="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.615 20q-.69 0-1.152-.462Q6 19.075 6 18.385V6H5V5h4v-.77h6V5h4v1h-1v12.385q0 .69-.462 1.152q-.463.463-1.153.463zm2.193-3h1V8h-1zm3.384 0h1V8h-1z"/></svg></a>
-                        <a asp-controller="Users" asp-action="Update"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L19 8.9M3 17.2V21h3.8l11-11.1l-3.7-3.8zM7 2v3h3v2H7v3H5V7H2V5h3V2z"/></svg></a>
-                    </td>
-                </tr>
+            }
+            <tr>
+                <td>01</td>
+                <td>María</td>
+                <td>González</td>
+                <td>Calle 123, Ciudad X</td>
+                <td>555-1234</td>
+                <td>maria@example.com</td>
+                <td>2024-03-22</td>
+                <td>
+                    <a asp-controller="Users" asp-action="Show"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></a>
+                    <a asp-controller="Users" asp-action="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.615 20q-.69 0-1.152-.462Q6 19.075 6 18.385V6H5V5h4v-.77h6V5h4v1h-1v12.385q0 .69-.462 1.152q-.463.463-1.153.463zm2.193-3h1V8h-1zm3.384 0h1V8h-1z"/></svg></a>
+                    <a asp-controller="Users" asp-action="Update"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L19 8.9M3 17.2V21h3.8l11-11.1l-3.7-3.8zM7 2v3h3v2H7v3H5V7H2V5h3V2z"/></svg></a>
+                </td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>José</td>
+                <td>Pérez</td>
+                <td>Avenida Principal, Ciudad Y</td>
+                <td>555-5678</td>
+                <td>jose@example.com</td>
+                <td>2024-03-23</td>
+                <td>
+                    <a asp-controller="Users" asp-action="Show"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></a>
+                    <a asp-controller="Users" asp-action="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.615 20q-.69 0-1.152-.462Q6 19.075 6 18.385V6H5V5h4v-.77h6V5h4v1h-1v12.385q0 .69-.462 1.152q-.463.463-1.153.463zm2.193-3h1V8h-1zm3.384 0h1V8h-1z"/></svg></a>
+                    <a asp-controller="Users" asp-action="Update"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L19 8.9M3 17.2V21h3.8l11-11.1l-3.7-3.8zM7 2v3h3v2H7v3H5V7H2V5h3V2z"/></svg></a>
+                </td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Carlos</td>
+                <td>Rodríguez</td>
+                <td>Plaza Central, Ciudad Z</td>
+                <td>555-9012</td>
+                <td>carlos@example.com</td>
+                <td>2024-03-23</td>
+                <td>
+                    <a asp-controller="Users" asp-action="Show"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></a>
+                    <a asp-controller="Users" asp-action="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.615 20q-.69 0-1.152-.462Q6 19.075 6 18.385V6H5V5h4v-.77h6V5h4v1h-1v12.385q0 .69-.462 1.152q-.463.463-1.153.463zm2.193-3h1V8h-1zm3.384 0h1V8h-1z"/></svg></a>
+                    <a asp-controller="Users" asp-action="Update"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L19 8.9M3 17.2V21h3.8l11-11.1l-3.7-3.8zM7 2v3h3v2H7v3H5V7H2V5h3V2z"/></svg></a>
+                </td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Ana</td>
+                <td>Martínez</td>
+                <td>Barrio Norte, Ciudad W</td>
+                <td>555-3456</td>
+                <td>ana@example.com</td>
+                <td>2024-03-22</td>
+                <td>
+                    <a asp-controller="Users" asp-action="Show"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></a>
+                    <a asp-controller="Users" asp-action="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.615 20q-.69 0-1.152-.462Q6 19.075 6 18.385V6H5V5h4v-.77h6V5h4v1h-1v12.385q0 .69-.462 1.152q-.463.463-1.153.463zm2.193-3h1V8h-1zm3.384 0h1V8h-1z"/></svg></a>
+                    <a asp-controller="Users" asp-action="Update"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L19 8.9M3 17.2V21h3.8l11-11.1l-3.7-3.8zM7 2v3h3v2H7v3H5V7H2V5h3V2z"/></svg></a>
+                </td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Luis</td>
+                <td>Fernández</td>
+                <td>Av. Libertador, Ciudad A</td>
+                <td>555-7890</td>
+                <td>luis@example.com</td>
+                <td>2024-03-21</td>
+                <td>
+                    <a asp-controller="Users" asp-action="Show"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></a>
+                    <a asp-controller="Users" asp-action="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.615 20q-.69 0-1.152-.462Q6 19.075 6 18.385V6H5V5h4v-.77h6V5h4v1h-1v12.385q0 .69-.462 1.152q-.463.463-1.153.463zm2.193-3h1V8h-1zm3.384 0h1V8h-1z"/></svg></a>
+                    <a asp-controller="Users" asp-action="Update"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L19 8.9M3 17.2V21h3.8l11-11.1l-3.7-3.8zM7 2v3h3v2H7v3H5V7H2V5h3V2z"/></svg></a>
+                </td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>Lucía</td>
+                <td>Ruiz</td>
+                <td>Av. Bolívar, Ciudad B</td>
+                <td>555-2345</td>
+                <td>lucia@example.com</td>
+                <td>2024-03-23</td>
+                <td>
+                    <a asp-controller="Users" asp-action="Show"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></a>
+                    <a asp-controller="Users" asp-action="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.615 20q-.69 0-1.152-.462Q6 19.075 6 18.385V6H5V5h4v-.77h6V5h4v1h-1v12.385q0 .69-.462 1.152q-.463.463-1.153.463zm2.193-3h1V8h-1zm3.384 0h1V8h-1z"/></svg></a>
+                    <a asp-controller="Users" asp-action="Update"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L19 8.9M3 17.2V21h3.8l11-11.1l-3.7-3.8zM7 2v3h3v2H7v3H5V7H2V5h3V2z"/></svg></a>
+                </td>
+            </tr>
+            <tr>
+                <td>07</td>
+                <td>Pablo</td>
+                <td>Díaz</td>
+                <td>Col. San Antonio, Ciudad C</td>
+                <td>555-6789</td>
+                <td>pablo@example.com</td>
+                <td>2024-03-22</td>
+                <td>
+                    <a asp-controller="Users" asp-action="Show"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></a>
+                    <a asp-controller="Users" asp-action="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.615 20q-.69 0-1.152-.462Q6 19.075 6 18.385V6H5V5h4v-.77h6V5h4v1h-1v12.385q0 .69-.462 1.152q-.463.463-1.153.463zm2.193-3h1V8h-1zm3.384 0h1V8h-1z"/></svg></a>
+                    <a asp-controller="Users" asp-action="Update"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ffffff" d="M20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L19 8.9M3 17.2V21h3.8l11-11.1l-3.7-3.8zM7 2v3h3v2H7v3H5V7H2V5h3V2z"/></svg></a>
+                </td>
+            </tr>
             </tbody>
 
         </table>

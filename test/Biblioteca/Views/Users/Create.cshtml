@@ -1,3 +1,4 @@
+@model Usuario;
 @{
     ViewBag.Title = "Crear usuario";
     ViewBag.Css = "form.css";
@@ -5,27 +6,29 @@
 
 <div class="container-main">
     <div class="container-form">
-    <h2>Registro de usuario</h2>
-        <div class="mb-3">
-            <label for="InputNombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="InputNombre">
-        </div>
-        <div class="mb-3">
-            <label for="InputApellido" class="form-label">Apellido</label>
-            <input type="text" class="form-control" id="InputApellido">
-        </div>
-        <div class="mb-3">
-            <label for="InputDireccion" class="form-label">Direccion</label>
-            <input type="text" class="form-control" id="InputDireccion">
-        </div>
-        <div class="mb-3">
-            <label for="InputTelefono" class="form-label">Telefono</label>
-            <input type="number" class="form-control" id="InputTelefono">
-        </div>
-        <div class="mb-3">
-            <label for="InputCorreo" class="form-label">Correo</label>
-            <input type="email" class="form-control" id="InputCorreo">
-        </div>
+        <h2>Registro de usuario</h2>
+        <form asp-action="Create" method="post">
+            <div class="mb-3">
+                <label for="InputNombre" class="form-label">Nombre</label>
+                <input asp-for="Nombre" type="text" class="form-control" id="InputNombre">
+            </div>
+            <div class="mb-3">
+                <label for="InputApellido" class="form-label">Apellido</label>
+                <input asp-for="Apellido" type="text" class="form-control" id="InputApellido">
+            </div>
+            <div class="mb-3">
+                <label for="InputDireccion" class="form-label">Direccion</label>
+                <input asp-for="Direccion" type="text" class="form-control" id="InputDireccion">
+            </div>
+            <div class="mb-3">
+                <label for="InputTelefono" class="form-label">Telefono</label>
+                <input asp-for="Telefono" type="text" class="form-control" id="InputTelefono">
+            </div>
+            <div class="mb-3">
+                <label for="InputCorreo" class="form-label">Correo</label>
+                <input asp-for="Correo" type="email" class="form-control" id="InputCorreo">
+            </div>
+            <input class="btn btn-success" type="submit" value="Registrar">
+        </form>
     </div>
-    <a class="btn-crear" asp-controller="Users" asp-action="Index">Registrar</a>
 </div>
